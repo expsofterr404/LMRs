@@ -13,20 +13,20 @@ import { Items } from '../mocks/providers/items';
 import { Settings, User, Api } from '../providers';
 import { MyApp } from './app.component';
 
-import { HttpModule } from '@angular/http';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AngularFireModule } from 'angularfire2';
+//import { HttpModule } from '@angular/http';
+//import { AngularFireDatabaseModule } from 'angularfire2/database';
+//import { AngularFireModule } from 'angularfire2';
 //import { FirebaseService } from'./../providers/firebase-service';
 
 
-const firebaseConfig = {
+/*const firebaseConfig = {
   apiKey: "AIzaSyBx6QJQS0zX-pKhjgInMMEBhG7JTu1pV8Y",
   authDomain: "lmrs-dbbc9.firebaseapp.com",
   databaseURL: "https://lmrs-dbbc9.firebaseio.com",
   projectId: "lmrs-dbbc9",
   storageBucket: "lmrs-dbbc9.appspot.com",
   messagingSenderId: "547513446912"
-};
+};*/
 
 // The translate loader needs to know where to load i18n files
 // in Ionic's static asset pipeline.
